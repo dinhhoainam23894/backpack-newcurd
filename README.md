@@ -11,13 +11,13 @@ $ composer require namdh2/newscrud
 2) Then add the service providers to your config/app.php file:
 
 ```
-'Backpack\NewsCRUD\NewsCRUDServiceProvider',
+'Backpack\News\NewsCRUDServiceProvider',
 ```
 
 3) Publish the migration:
 
 ```
-php artisan vendor:publish --provider="Backpack\NewsCRUD\NewsCRUDServiceProvider"
+php artisan vendor:publish --provider="Backpack\News\NewsCRUDServiceProvider"
 ```
 
 4) Run the migration to have the database table we need:
